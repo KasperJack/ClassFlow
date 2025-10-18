@@ -1,10 +1,7 @@
 PyQt6
-pyqt6-tools
-validators
 bcrypt
-fpdf2
-reportlab
-load_dotenv
+validators
 dotenv
+fontTools
 
 

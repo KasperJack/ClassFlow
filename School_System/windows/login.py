@@ -128,7 +128,8 @@ class Login(QMainWindow):
             print("create or select a database")
             return
 
-        email = self.email_field.text()
+        email = self.email_field.text().strip()
+
         password = self.password_field.text()
 
         # Validate inputs
